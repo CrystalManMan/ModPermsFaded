@@ -9,8 +9,8 @@ local whitelist = {
 }
 
 
-owner = false
-admin = false
+owner = true
+admin = true
 
 local function runcommand(message,author) 
 	owner = false
